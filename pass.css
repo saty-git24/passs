@@ -1,0 +1,62 @@
+.sec{
+    padding: 0rem 1rem;
+    margin: 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    background-color: white;
+}
+
+.name,.phone,.date,.time{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    gap: 2rem;
+    font-size: 1rem;
+    
+}
+
+.image{
+    height: 10rem;
+    width: 10rem;
+    /* border: 2px solid black; */
+    background-image: url("confirmation-1152155_640.webp");
+    background-size:100%;
+    border-radius: 100%;
+    padding-right: 10 rem;
+    position: absolute;
+    left: 870px;
+    top: 280px;
+    
+}
+h2{
+    color: black;
+}
+.app{
+    margin-top: 220px;
+    margin-right: 65px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid black;
+    background-image: url("app.webp");
+    background-size: 150px;
+}
+.logo{
+    width: 50px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-bottom: 100px;
+    position:absolute;
+    left: 1060px;
+    bottom: 455px;
+    background-image: url("logo.jpg");
+    background-size:contain;
+}
